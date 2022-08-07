@@ -1,0 +1,42 @@
+.banner {
+    height: 30vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+    ), url('../../images/collectionbanner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.main {
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.rules {
+    padding-bottom: 30px;
+}
+.rules img {
+    max-width: 100%;
+}
+.main-text h1 {
+    color: rgb(125, 75, 75);
+    font-weight: bold;
+}
+.main-text {
+    font-size: larger;
+}
+.cat-images {
+    padding-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.cat-image {
+    cursor: pointer;
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
