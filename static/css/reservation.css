@@ -1,0 +1,185 @@
+.background {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.8)
+), url('../../images/reservationbackground.jpg');
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.starting-content {
+  font-size: 1.1em;
+}
+.form {
+  background-color: white;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+.form h1, h3, h5 {
+  font-weight: bold;
+  color: rgb(86, 53, 53);
+  text-transform: uppercase;
+}
+
+.form select {
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 200px;
+  margin-bottom: 15px;
+}
+.form input[type="date"] {
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.time-button {
+  width:auto;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid silver;
+  border-radius: 8px;
+  color: black;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.time-button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+.time-button-active {
+  color: white;
+  border: 1px solid rgb(108, 59, 0);
+  background-color: rgb(108, 59, 0);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+.hr-line {
+  margin: auto;
+  font-size: 0.9em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: silver;
+}
+
+.footer {
+  z-index: inherit;
+  padding-bottom: 10px;
+  box-shadow: 0 0 20px 6px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.footer-content {
+  font-weight: bold;
+  margin-bottom: -5px;
+  padding: 5px;
+}
+.footer-content a {
+  font-weight: normal;
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+  border: 1px solid silver;
+  border-radius: 2px;
+  background-color: rgb(249, 249, 249);
+  color: black;
+}
+
+.form ol {
+  font-weight: 500;
+}
+.form td, td label, #terms {
+  cursor: pointer;
+  font-size: 0.95em;
+  color: rgb(86, 53, 53);
+}
+
+
+
+#submit,
+input[type="submit"] {
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 5px;
+  width: 100%;
+}
+.submit-active,
+input[type="submit"] {
+  border: 1px solid rgb(108, 59, 0);
+  color: white;
+  background-color: rgb(108, 59, 0);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+input[type="checkbox"] ~ label {
+  padding-left: 1.4em;
+}
+
+#form2 {
+  display: none;
+}
+.booking-content {
+  font-size: 1.2em;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.booking-media-header {
+  padding-top: 10px;
+  padding-left: 22px;
+  display: none;
+}
+.booking-content td {
+  cursor: default;
+  padding-right: 5px;
+}
+.modify {
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: silver;
+  font-size: 0.8em;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+.contact {
+  padding: 14px;
+}
+.contact input,
+.contact textarea {
+  padding: 5px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.contact textarea {
+  padding-bottom: 90px;
+}
+
+@media only screen and (max-width:767px) {
+  .footer-content span {
+      display: none;
+  }
+  .footer-content {
+      text-align: center;
+  }
+  .booking-image {
+    display: none;
+  }
+  .booking-media-header {
+    display:block
+  }
+  .hideInMedia {
+    display: none;
+  }
+}
