@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <!-- Other CSS -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/reservation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Other JS -->
+    <script src="https://kit.fontawesome.com/b0243d8c02.js" crossorigin="anonymous"></script>
+    <!-- Google Translate -->
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+    </script>
+
+    <title> Pawfee </title>
+    <link rel="icon" href="images/max.png">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a href="main.html" class="navbar-brand"> <img src="images/logo.png" class="navbar-logo"
+                    style="width:70px;height:45px;"> Pawfee Beans </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown"
+                aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="main.html" class="nav-link"> Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="collection.html" class="nav-link"> Meet Our Cats </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active"> Reservations </a>
+                    </li>
+                    <li class="nav-item">
+                        <div id="google_translate_element"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="live-support">
+        <!-- Live Support -->
+        <script type="text/javascript">
+            (function (d, src, c) { var t = d.scripts[d.scripts.length - 1], s = d.createElement('script'); s.id = 'la_x2s6df8d'; s.async = true; s.src = src; s.onload = s.onreadystatechange = function () { var rs = this.readyState; if (rs && (rs != 'complete') && (rs != 'loaded')) { return; } c(this); }; t.parentElement.insertBefore(s, t.nextSibling); })(document,
+                'https://glncode.ladesk.com/scripts/track.js',
+                function (e) { });
+        </script>
+        <script type="text/javascript">
+            (function (d, src, c) { var t = d.scripts[d.scripts.length - 1], s = d.createElement('script'); s.id = 'la_x2s6df8d'; s.async = true; s.src = src; s.onload = s.onreadystatechange = function () { var rs = this.readyState; if (rs && (rs != 'complete') && (rs != 'loaded')) { return; } c(this); }; t.parentElement.insertBefore(s, t.nextSibling); })(document,
+                'https://glncode.ladesk.com/scripts/track.js',
+                function (e) { LiveAgent.createButton('uu1qws98', e); });
+        </script>
+    </div>
+    
+    <!-- Main Body -->
+    <div class="container-fluid background">
+        <form action="result.html" method="GET">
+            <div class="container form">
+                <div class="container" style="padding-top: 5px; padding-bottom:125px;height:auto"
+                    id="party-size-toscroll">
+                    <div class="starting-content">
+                        <p>
+                            Booking up to 10 for fully vaccinated excluding children under 12. If you are not
+                            vaccinated, pre-event testing is required. <br>
+                            Children must be 6 years old and above to enter the café. <br>
+                            Children aged 6 to 12 years old must be supervised by an adult.
+                        </p>
+                    </div>
+                    <hr>
+                    <!-- The first form for booking -->
+                    <div id="form1">
+                        <!-- Party Size and Date -->
+                        <div class="row" id="time-set-toscroll">
+                            <h1> Booking </h1>
+                            <div class="col-md-4">
+                                <h5> Party Size </h5>
+                                <select id="adult" name="adult" onchange="modifySizeOption('adult')">
+                                    <option disabled> Please select your party size </option>
+                                    <option value=1> 1 adult(s) </option>
+                                    <option value=2> 2 adult(s) </option>
+                                    <option value=3> 3 adult(s) </option>
+                                    <option value=4> 4 adult(s) </option>
+                                    <option value=5> 5 adult(s) </option>
+                                    <option value=6> 6 adult(s) </option>
+                                    <option value=7> 7 adult(s) </option>
+                                    <option value=8> 8 adult(s) </option>
+                                    <option value=9> 9 adult(s) </option>
+                                    <option value=10> 10 adult(s) </option>
+                                </select>
+                                <select id="kid" name="kid" onchange="modifySizeOption('kid')">
+                                    <option value=0> 0 kid(s) </option>
+                                    <option value=1> 1 kid(s) </option>
+                                    <option value=2> 2 kid(s) </option>
+                                    <option value=3> 3 kid(s) </option>
+                                    <option value=4> 4 kid(s) </option>
+                                    <option value=5> 5 kid(s) </option>
+                                    <option value=6> 6 kid(s) </option>
+                                    <option value=7> 7 kid(s) </option>
+                                    <option value=8> 8 kid(s) </option>
+                                    <option value=9> 9 kid(s) </option>
+                                </select>
+                            </div>
+                            <div class="col-md-8">
+                                <h5> Dining Date </h5>
+                                <input id="date" name="date" type="date" onchange="checkWeekend()">
+                            </div>
+                            <div class="col-md-12">
+                                <p> Bookings can be made for parties of 1 to 10 (including kids) <br> To make a booking
+                                    for a party that exceeds 10 guests, contact 83897086. </p>
+                            </div>
+                        </div>
+                        <!-- Time based on Date -->
+                        <div class="row">
+                            <input name="time" id="time" style="display:none;">
+                            <h5> Time </h5>
+                            <p> The time that you have selected will be booked for 1 hour. <br> If you would like to
+                                extend your booking, please contact an available staff on that day. </p>
+                            <div class="col-md-12 morning">
+                                <p class="hr-line"> Morning </p>
+                                <div class="time-button"> 10:00 </div>
+                            </div>
+                            <div class="col-md-12 noon">
+                                <p class="hr-line"> Noon </p>
+                                <div class="time-button"> 11:00 </div>
+                                <div class="time-button"> 12:00 </div>
+                                <div class="time-button"> 13:00 </div>
+                            </div>
+                            <div class="col-md-12 afternoon">
+                                <p class="hr-line"> Afternoon </p>
+                                <div class="time-button"> 14:00 </div>
+                                <div class="time-button"> 15:00 </div>
+                                <div class="time-button"> 16:00 </div>
+                            </div>
+                            <div class="col-md-12 evening">
+                                <p class="hr-line"> Evening </p>
+                                <div class="time-button"> 17:00 </div>
+                                <div class="time-button"> 18:00 </div>
+                                <div class="time-button"> 19:00 </div>
+                                <div class="time-button" id="weekendOnly"> 20:00 </div>
+                                <div class="time-button" id="weekendOnly"> 21:00 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- The second form for contact information -->
+                    <div id="form2" style="margin-bottom:10px;">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h1> Booking </h1>
+                                <h5> Please fill out the contact information below </h5>
+                                <div class="card">
+                                    <div class="row">
+                                        <img src="images/bookingImage.jpg" class="booking-image">
+                                        <div class="booking-media-header">
+                                            <h3> Booking Details </h3>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <table class="booking-content">
+                                                <tr>
+                                                    <td colspan="2"> You have selected: </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> <i class="fa-solid fa-user"></i> </td>
+                                                    <td> <span id="size-info"></span> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> <i class="fa-solid fa-calendar-days"></i> </td>
+                                                    <td> <span id="date-info"></span> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> <i class="fa-solid fa-clock"></i> </td>
+                                                    <td> <span id="time-info"></span> </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <p class="modify"> Modify </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card contact">
+                                    <label for="name"> Name </label>
+                                    <input type="text" placeholder="John Doe" name="name" id="name" required>
+                                    <label for="number"> Phone Number </label>
+                                    <input type="tel" placeholder="1234-5678" name="number" pattern="[0-9]{4}-[0-9]{4}"
+                                        required>
+                                    <label for="email"> Email </label>
+                                    <input type="email" placeholder="johndoe@gmail.com" name="email" id="email"
+                                        required>
+                                    Note
+                                    <textarea
+                                        placeholder="Got a special request? Leave it here! (e.g alleries, wheelchair, access, etc.)"></textarea>
+                                    <div class="terms">
+                                        <table>
+                                            <tr>
+                                                <td style="padding-right:20px"> <input type="checkbox" id="terms"
+                                                        required> </td>
+                                                <td> <label for="terms"> I agree to the Terms and Conditions and will
+                                                        not hold Pawfee Beans responsible for any damages that may be
+                                                        incurred during any activities within the café. </label> </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hideInMedia">
+                            <br><br><br>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+                <div class="container-fluid fixed-bottom footer" style="height:auto">
+                    <div class="container footer-content" style="padding-top:15px;">
+                        <span> Your current reservation settings for Pawfee Beans: </span>
+                        <a href="#party-size-toscroll" id="size-display"> 1 adult </a>
+                        <i class="fa-solid fa-angle-right"></i>
+                        <a href="#party-size-toscroll" id="date-display"> Jan 1, 2022 </a>
+                        <i class="fa-solid fa-angle-right"></i>
+                        <a href="#time-set-toscroll" id="time-display"> Time </a>
+                    </div>
+                    <hr>
+                    <div class="container" id="button1">
+                        <input type="button" value="Please select your dining time" id="submit" disabled>
+                    </div>
+                    <div class="container" id="button2" style="display:none;">
+                        <input type="submit" value="submit">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+<script src="static/scripts/reservation.js"></script>
+
+</html>

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <!-- Intro CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/6.0.0/introjs.css">
+    </link>
+    <!-- Intro JS  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/6.0.0/intro.js"></script>
+
+    <!-- Other CSS -->
+    <link rel="stylesheet" href="static/css/magnify.css">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Other JS -->
+    <script src="static/scripts/jquery.magnify.js"></script>
+    <script src="https://kit.fontawesome.com/b0243d8c02.js" crossorigin="anonymous"></script>
+    <!-- Google Translate -->
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element')
+        }
+    </script>
+
+    <title> Pawfee </title>
+    <link rel="icon" href="images/max.png">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"> <img src="images/logo.png" class="navbar-logo"
+                    style="width:70px;height:45px;"> Pawfee Beans </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown"
+                aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active"> Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="collection.html" class="nav-link"> Meet Our Cats </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="reservation.html" class="nav-link"> Reservations </a>
+                    </li>
+                    <li class="nav-item">
+                        <div id="google_translate_element"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="live-support">
+        <!-- Live Support -->
+        <script type="text/javascript">
+            (function (d, src, c) { var t = d.scripts[d.scripts.length - 1], s = d.createElement('script'); s.id = 'la_x2s6df8d'; s.async = true; s.src = src; s.onload = s.onreadystatechange = function () { var rs = this.readyState; if (rs && (rs != 'complete') && (rs != 'loaded')) { return; } c(this); }; t.parentElement.insertBefore(s, t.nextSibling); })(document,
+                'https://glncode.ladesk.com/scripts/track.js',
+                function (e) { });
+        </script>
+        <script type="text/javascript">
+            (function (d, src, c) { var t = d.scripts[d.scripts.length - 1], s = d.createElement('script'); s.id = 'la_x2s6df8d'; s.async = true; s.src = src; s.onload = s.onreadystatechange = function () { var rs = this.readyState; if (rs && (rs != 'complete') && (rs != 'loaded')) { return; } c(this); }; t.parentElement.insertBefore(s, t.nextSibling); })(document,
+                'https://glncode.ladesk.com/scripts/track.js',
+                function (e) { LiveAgent.createButton('uu1qws98', e); });
+        </script>
+    </div>
+
+    <!-- Banner -->
+    <div class="container-fluid banner" id="banner">
+        <div class="container banner-content col-lg-6">
+            <div class="text-center">
+                <h1 class="intro-1">PAWFEE BEANS </h1>
+                <p> The perfect combination of cats, coffee, tea and pastries. </p>
+                <a href="reservation.html" data-intro="hello2"> <button class="signup"> RESERVE NOW </button> </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us -->
+    <div class="container aboutus">
+        <div class="row">
+            <div class="col-md-6 left">
+                <h1> About Us </h1>
+                <p class="text-justify" style="font-size:1.2em"> We want to create the perfect environment to relax, unwind, and recharge. Where you can stay cosy, away from a hectic, fast-pased society and busy lifestyle. A place where you can interact with our cats safely. We offer freshly brewed coffee, top-notch tea and freshly baked pastries. <br><br> Our cats were all once strays, so don't be surprised if you recognise some of them. Bring a friend along to catch up on old times, surrounded by our furry felines! </p>
+            </div>
+            <div class="col-md-6 right">
+                <img src="images/aboutus.jpg" class="w-100">
+            </div>
+            <div class="col-md-4 bottom" id="rightborder">
+                <h3> <i class="fa-solid fa-mug-saucer"></i> COFFEE, TEA, PASTRIES </h3>
+                <p> Come here to enjoy great coffee, tea and pastries. For the little ones and non-caffeine takers, soft
+                    drinks are available as well. </p>
+            </div>
+            <div class="col-md-4 bottom" id="rightborder">
+                <h3> <i class="fa-solid fa-user-group"></i> BRING-A-BUDDY </h3>
+                <p> Whether you’re a cafe-hopper, a crazy cat lover, or both, quit staring at pictures of cats online
+                    while sipping your coffee. Swing by to enjoy the best of both worlds and yes, do bring a friend
+                    along! </p>
+            </div>
+            <div class="col-md-4 bottom">
+                <h3> <i class="fa-solid fa-cat"></i> OF COURSE, CATS </h3>
+                <p> Fancy petting a furry friend while enjoying your coffee? Our humble abode is packed with many furry
+                    felines, you just have to look carefully for them. Pop by anytime, and you might just find a cuddly
+                    kitty climbing into your lap as you bask in the aroma of freshly brewed coffee. </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Products -->
+    <div class="container products">
+        <!-- Popup Divs -->
+        <div class="container">
+            <div class="modal fade" id="popupModal" tabIndex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <!-- Header -->
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="popupTitle"> Face Mask with Cat Prints </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <!-- Body -->
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <!-- Image -->
+                                    <div class="col-md-4">
+                                        <a href="images/mask.jpg">
+                                            <img src="images/mask.jpg" id="popupImage" class="w-100 zoom">
+                                        </a>
+                                    </div>
+                                    <!-- Content -->
+                                    <div class="col-md-6">
+                                        <h3 id="popupPrice"> $4.00 </h3>
+                                        <p class="discount" id="popupDiscount"> <span>$20.00</span> -80% </p>
+                                        <p id="popupDescription">
+                                            Cat prints on both sides! Two colours for the price of one. 100% premium cotton fabric cat print from Japan and Taiwan. High quality, adjustable black elastic bands. Handmade with love in Singapore.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Paypal Footer -->
+                        <div class="modal-footer" style="justify-content:center">
+                            <div id="smart-button-container">
+                                <div style="text-align: center;">
+                                    <div id="paypal-button-container"></div>
+                                </div>
+                            </div>
+                            <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD"
+                                data-sdk-integration-source="button-factory"></script>
+                            <script>
+                                function initPayPalButton() {
+                                    paypal.Buttons({
+                                        style: {
+                                            shape: 'rect',
+                                            color: 'gold',
+                                            layout: 'vertical',
+                                            label: 'paypal',
+
+                                        },
+
+                                        createOrder: function (data, actions) {
+                                            return actions.order.create({
+                                                purchase_units: [{ "amount": { "currency_code": "USD", "value": 1 } }]
+                                            });
+                                        },
+
+                                        onApprove: function (data, actions) {
+                                            return actions.order.capture().then(function (orderData) {
+
+                                                // Full available details
+                                                console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+                                                // Show a success message within this page, e.g.
+                                                const element = document.getElementById('paypal-button-container');
+                                                element.innerHTML = '';
+                                                element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+                                                // Or go to another URL:  actions.redirect('thank_you.html');
+
+                                            });
+                                        },
+
+                                        onError: function (err) {
+                                            console.log(err);
+                                        }
+                                    }).render('#paypal-button-container');
+                                }
+                                initPayPalButton();
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Products -->
+        <div>
+            <div class="row text-center header">
+                <h3> Featured Products </h3>
+            </div>
+            <!-- Products -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card product1" id="product-card" data-bs-toggle="modal" data-bs-target="#popupModal">
+                        <img src="images/mask.jpg">
+                        <div class="text-center description" id="product-description">
+                            <h5> Face Mask with Cat Prints </h5>
+                            <p class="price"> $5.25 </p>
+                            <p class="discount"> <span>$15.00</span> -65% </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card product2" id="product-card" data-bs-toggle="modal" data-bs-target="#popupModal">
+                        <img src="images/cushion.jpg">
+                        <div class="text-center description">
+                            <h5> Cushion Recovery Collar </h5>
+                            <p class="price"> $8.00 </p>
+                            <p class="discount"> <span>$25.00</span> -68% </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card product3" id="product-card" data-bs-toggle="modal" data-bs-target="#popupModal">
+                        <img src="images/bed.jpg">
+                        <div class="text-center description">
+                            <h5> Bed with Cat Ears </h5>
+                            <p class="price"> $4.00 </p>
+                            <p class="discount"> <span>$30.00</span> -86% </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Customer Reviews -->
+    <div class="container review">
+        <div class="text-center header">
+            <h3> Reviews </h3>
+            <p> Check out what other people have to say about us! </p>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text"> It was a great experience visiting the Cat cafe! My children did really enjoy touching and petting the cats. It is amazing that these feline animals are so cute that they even went top of our table and trying to gulp our drinks! I think for $16 for 2 hours with complementary drinks is really worth it. The place is really clean, quite and just also nice to relax. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 removeCardOnMobile">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text"> Cats are very lovely animals. They have a lot of rescued strays here which is very good. Just a pity there isn’t much interaction with them such as playing with toys etc. nonetheless still have a good time with them. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 removeCardOnMobile">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <p class="review-text"> Very lovely place. All the cats look healthy and well care for. Staff gave specific instructions on how to handle the cats. The cafe is clean and smell normal. Would love to visit again. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google Maps -->
+    <div class="container location">
+        <div class="row">
+            <div class="col-md-4 left">
+                <h3> DIRECTIONS </h3>
+                <p> You can take the MRT to the North South Line, stopping at Yio Chu Kang. Take the first left upon leaving the station, a right, and another left which gets you to cross a traffic light. You will be able to see our building just by moving forward. <br><br> The following bus services are available for reaching Nanyang Polytechnic: 13, 70, 72, 76, 162, 825 </p>
+            </div>
+            <div class="col-md-8 right">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.661177582882!2d103.84676001533096!3d1.3799553618609595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da16eb64b0249d%3A0xe5f10ff680eed942!2sNanyang%20Polytechnic!5e0!3m2!1sen!2ssg!4v1658935368359!5m2!1sen!2ssg"
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-white">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-4 mx-auto footer-bottom-padding">
+                    <h2 class="footer-header"> Contact Information </h2>
+                    <table class="contact-table">
+                        <tr>
+                            <td class="icon-cell"> <i class="fa-solid fa-phone"></i> </td>
+                            <td class="icon-text"> <a href="tel:83897086"> (+65) 8389 7086 </a> </td>
+                        </tr>
+                        <tr>
+                            <td class="icon-cell"> <i class="fa-solid fa-location-dot"></i> </td>
+                            <td class="icon-text"> <a href="https://goo.gl/maps/vsfqPsrgSKo3dSC37" target="_blank"> 180
+                                    Ang Mo Kio Ave 8, Singapore 569830 </a> </td>
+                        </tr>
+                        <tr>
+                            <td class="icon-cell"> <i class="fa-solid fa-envelope"></i> </td>
+                            <td class="icon-text"> <a href="mailto:#"> Email Us </a> </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-4 mx-auto">
+                    <h2 class="footer-header"> Operating Hours </h2>
+                    <p> We are open <span> 7 days a week</span>! Open from <span> 10am - 7pm </span> during weekdays,
+                        <span>10am - 9pm</span> during weekends
+                    </p>
+                    <a href="reservation.html" class="footer-redirect-reservation"> BOOK A RESERVATION HERE </a>
+                </div>
+                <div class="col-md-4 mx-auto">
+                    <div class="row footer-images">
+                        <div class="col-md-12 logo">
+                            <img src="images/logo.png" class="footer-logo">
+                        </div>
+                        <div class="col-md-12">
+                            <a href="" class="social-media-link"> <i class="fa-brands fa-facebook fb"></i> </a>
+                            <a href="" class="social-media-link"> <i class="fa-brands fa-twitter tw"></i> </a>
+                            <a href="" class="social-media-link"> <i class="fa-brands fa-discord dc"></i> </a>
+                            <a href="" class="social-media-link"> <i class="fa-brands fa-instagram ig"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="static/scripts/main.js"></script>
+</html>
